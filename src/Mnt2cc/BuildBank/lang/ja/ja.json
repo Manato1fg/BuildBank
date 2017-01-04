@@ -1,0 +1,14 @@
+{
+  "touch_start_point":"始点をタッチしてください。向いている向きを取得するので必ず正面からタッチしてください。\n",
+  "register_start_point":"始点を登録しました(x: %1, y: %2, z: %3)\n",
+  "touch_end_point":"終点をタッチしてください\n",
+  "register_end_point":"終点を登録しました(x: %1, y: %2, z: %3) 全%4ブロック\n",
+  "enter_key_name":" 建物の名前を入力してください。\n",
+  "register_build":"オブジェクトを%1として登録しました。\n",
+  "built_object":"%1を作成しました。\n",
+  "usage":"使い方:\n \/buildbank(\/bb可): \n  register --- 建物を登録する際に使用します。 \n build <key> --- 建物を設置する際に使用します。 \n cancel ... 直前に実行したBuildBankコマンドをキャンセルします。 \n help ... このヘルプページを表示します。\n",
+  "cancel":"キャンセルしました。\n",
+  "not_found_key":"%1は存在しない、もしくは削除された建物です。\n",
+  "use_from_console":"コマンドはゲーム内で使ってください。\n",
+  "touch_to_build":"始点をタッチしてください。向いている方向に対して自動で正面を向くように補正されます。\n"
+}

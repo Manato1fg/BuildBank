@@ -1,0 +1,11 @@
+name: BuildBank
+main: Mnt2cc\BuildBank\BuildBank
+author: Manato0x2cc
+version: 1.0.0
+load: POSTWORLD
+api: 3.0.0
+commands:
+  bb:
+    description: "BuildBankのコマンド"
+  buildbank:
+    description: "BuildBankのコマンド"
