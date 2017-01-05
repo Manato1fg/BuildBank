@@ -12,7 +12,7 @@ BuildBankはオブジェクトを基本単位としたワールドエディタ�
 
 
 始点をタッチしてくださいと表示されるので、**必ず建物の正面に立って**タッチしてください。(この時方角を記録するからです。)  
-<img src='http://mnt2cc.com/githubimages/register.png' width=800px height=400px> 
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/register.png' width=800px height=400px> 
 
 
 その後、終点をタッチしてください。(向きは気にしなくて平気です。)    
@@ -23,11 +23,11 @@ BuildBankはオブジェクトを基本単位としたワールドエディタ�
 
 ### コピー    
 コピーする場所の左下に余分なブロック(地面に埋まってしまうので)を置きます。**左下が基点となります**。
-<img src='http://mnt2cc.com/githubimages/important.png' width=400px height=300px>  
-そして**/bb build 建物の名前**と入力します。  
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/important.png' width=400px height=300px> 
+そして**/bb build 建物の名前**と入力します。
 指示に従い先ほど置いたブロックをタッチします。
 また、360°回転に対応していますので正面からタッチするだけで構いません。
-<img src='http://mnt2cc.com/githubimages/360.png' width=800px height=400px> 
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/360.png' width=800px height=400px> 
 ## Licence
 
 [MIT](https://github.com/manato0x2cc/buildbank/blob/master/LICENCE)
