@@ -31,7 +31,7 @@ Touch the dummy block. Done.
 
 BuildBank turns the creation automatically, so you don't have to care direction!!  
 
-<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/360.png' width=800px height=400px>
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/360_en.png' width=800px height=400px>
 
 
 ## lang.php
