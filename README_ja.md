@@ -23,7 +23,7 @@ BuildBankはオブジェクトを基本単位としたワールドエディタ�
 
 ### コピー    
 コピーする場所の左下に余分なブロック(地面に埋まってしまうので)を置きます。**左下が基点となります**。
-<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/important.png' width=400px height=300px> 
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/important.png' width=400px height=300px> <br>
 そして**/bb build 建物の名前**と入力します。
 指示に従い先ほど置いたブロックをタッチします。
 また、360°回転に対応していますので正面からタッチするだけで構いません。
