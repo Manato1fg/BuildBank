@@ -12,7 +12,7 @@ BuildBankはオブジェクトを基本単位としたワールドエディタ�
 
 
 始点をタッチしてくださいと表示されるので、**必ず建物の正面に立って**タッチしてください。(この時方角を記録するからです。)  
-<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/register.png' width=800px height=400px> 
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/register.png' width=800px height=400px>
 
 
 その後、終点をタッチしてください。(向きは気にしなくて平気です。)    
@@ -27,7 +27,18 @@ BuildBankはオブジェクトを基本単位としたワールドエディタ�
 そして**/bb build 建物の名前**と入力します。
 指示に従い先ほど置いたブロックをタッチします。
 また、360°回転に対応していますので正面からタッチするだけで構いません。
-<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/360.png' width=800px height=400px> 
+<img src='https://github.com/Manato0x2cc/BuildBank/raw/master/docs/360.png' width=800px height=400px>
+
+
+## lang.php
+lang.phpはBuildBankを他の言語に対応させるためのCUIアプリケーションです。質問に答えるとJsonファイルが作成されます。たくさんの言語に対応されることを願っています。
+
+## To do  
+* Redo機能の追加.
+* mod版を作成します。
+* APIの作成。
+
+
 ## Licence
 
 [MIT](https://github.com/manato0x2cc/buildbank/blob/master/LICENCE)

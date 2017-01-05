@@ -13,15 +13,16 @@ $langs = [];
 $keys = [
   "touch_start_point",
   "register_start_point",
-  "register_end_point",
   "touch_end_point",
+  "register_end_point",
   "enter_key_name",
   "register_build",
   "built_object",
   "usage",
   "cancel",
   "not_found_key",
-  "use_from_console"
+  "use_from_console",
+  "touch_to_build"
 ];
 
 $msgs = [
@@ -35,11 +36,14 @@ $msgs = [
   "The Usage of command and subcommand.",
   "The message is sent when player canceled command",
   "The message is sent when couldn't find the building ".blue("[building-name: %1]"),
-  "The message is sent when the owner uses command from console."
+  "The message is sent when the owner uses command from console.",
+  "The message is sent when player who wants to copy building executes /bb build command."
 ];
 
 echo "Enter the lang code. : ";
 $lang_code = fgets(STDIN);
+
+$lang_code = str_replace("\n", "", $lang_code);
 
 echo "\n";
 echo "
@@ -67,9 +71,9 @@ Please send http://buildbank.mnt2cc.com/lang/. Or you can send me by using gmail
 Gmail address is manato0x2cc@gmail.com
 I really thank you for all of your help.\n\n\n\n";
 
-$json = json_encode($langs, JSON_UNESCAPED_UNICODE);//JSON_UNESCAPED_UNICODEはユニコード変換防止
+$json = json_encode($langs, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);//JSON_UNESCAPED_UNICODEはユニコード変換防止
 
-file_put_contents($lang_code.".json",$json);
+file_put_contents(dirname(__FILE__).'/'.$lang_code.".json", $json);
 
 echo "Generating ".$lang_code.".json successfully\n\n";
 

@@ -78,10 +78,6 @@ class BuildBank extends PluginBase implements \pocketmine\event\Listener{
 
 		$this->server->getPluginManager()->registerEvents($this,$this);//イベントを登録
 
-    $this->bm = BM::getInstance();
-
-    $this->bm->setLang("ja");//デフォルトは日本語。
-
     $this->buildpath = $this->getDataFolder()."builds/";
 
 		if(!file_exists($this->buildpath)){
@@ -89,6 +85,14 @@ class BuildBank extends PluginBase implements \pocketmine\event\Listener{
       @mkdir($this->buildpath, 0744, true);//フォルダを作成
 
     }
+
+    $config = new \pocketmine\utils\Config($this->getDataFolder()."config.yml", \pocketmine\utils\Config::YAML, array("lang"=>"ja"));
+
+    $lang = $config->get("lang");
+
+    $this->bm = BM::getInstance();
+
+    $this->bm->setLang($lang);//デフォルトは日本語
 
   }
 

@@ -1,0 +1,14 @@
+{
+    "touch_start_point": "Touch the start point.\n",
+    "register_start_point": "Registered the start point (X: %1, Y: %2, Z:%3)\n",
+    "touch_end_point": "Touch the end point.\n",
+    "register_end_point": "Registered the end point (X: %1, Y: %2, Z:%3) %4blocks.\n",
+    "enter_key_name": "Enter the building's name.\n",
+    "register_build": "Registering %1 is finished successfully.\n",
+    "built_object": "Building %1 is finished successfully.\n",
+    "usage": "Usage\n \/buildbank(\/bb):\n register --- To register your creation.\n build <name> --- To build <name>\n cancel --- Cancel the latest command. help --- To see this help page.\n",
+    "cancel": "Canceled.\n",
+    "not_found_key": "Couldn't find %1. Check again.\n",
+    "use_from_console": "Plaese use in the game...\n",
+    "touch_to_build": "Touch the left bottom of where you copy.\n"
+}
